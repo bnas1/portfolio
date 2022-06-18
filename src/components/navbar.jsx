@@ -5,7 +5,7 @@ const Navigation = () => {
         <>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" >
     <Container>
-    <Navbar.Brand href="#home">SB</Navbar.Brand>
+    <Navbar.Brand href="/">SB</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
