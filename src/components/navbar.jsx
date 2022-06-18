@@ -10,9 +10,9 @@ const Navigation = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
       <Nav.Link href='/' >Home</Nav.Link>
-      <Nav.Link eventKey={2}>Work</Nav.Link>
+      <Nav.Link eventKey={2} href='/work'>Work</Nav.Link>
       <Nav.Link eventKey={3} href='/about'>About</Nav.Link>
-    <Nav.Link eventKey={4}>Contact</Nav.Link>
+    <Nav.Link eventKey={4} href='/contact'>Contact</Nav.Link>
     </Nav>
     </Navbar.Collapse>
     </Container>

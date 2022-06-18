@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/navbar";
+import Contact from "./components/contact";
+import Work from "./components/work";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Header />} />
+          <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

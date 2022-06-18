@@ -127,3 +127,29 @@ justify-content: space-between;
   -webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+
+/*Contact*/
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+.contact-p{
+  font-size: 2vw;
+}
+
+/*work*/
+.work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 100px;
+}
+.work-link{
+  text-decoration: none;
+  color: white;
+}
